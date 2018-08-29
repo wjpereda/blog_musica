@@ -1,0 +1,176 @@
+.bordecito{
+	border:1px solid;
+}
+
+body{
+	margin: auto;
+	padding: 0px;
+	background-image: url("../../img/fondo.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+
+#cabecera{
+	background-image: url('../../img/cabecera.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.centrado-porcentual {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.titlePage{
+	margin-bottom: 10px;
+}
+
+
+.contenedor{
+	 margin-top:225px;
+	 margin-bottom:20px;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    padding:5px;
+    clear: both;
+    //background: rgb(53,106,160);
+    background-color: rgba(53,106,160,.75);
+    text-align: center;
+    color: #fff;
+    bottom: 0px;
+}
+
+.title{
+	font-family: Tahoma;
+	font-size: 100px;
+	color: rgb(255,255,255);
+	text-align: center;
+}
+
+.titleWin{
+	background-color:rgba(53,106,160,.75);
+	font-family: Tahoma;
+	font-size: 26px;
+	color: rgb(242,151,32);
+	padding: 5px;
+	border:2px solid rgb(53,106,160);
+	border-radius: 8px 8px 0px 0px;
+}
+
+.bodyWin{
+	background-color: rgba(236,236,236,0.75);
+	padding: 10px;
+	color: rgb(47,47,47);
+	border:2px solid rgb(53,106,160);
+}
+
+.footerWin{
+	background-color: rgba(53,106,160,.75);
+	text-align: center;
+	font-family: Tahoma;
+	color: rgb(255,255,255);
+	padding: 5px;
+	border:2px solid rgb(53,106,160);
+	border-radius: 0px 0px 8px 8px;
+}
+
+form input.login{
+	background-position: left center;
+	padding-left: 30px;
+	font-size: 20px;
+	background-image: url("../../img/login.png");
+	background-repeat: no-repeat;
+	box-shadow: 3px 3px 3px 2px rgb(180,180,180);
+}
+
+form input.password{
+	background-position: left center;
+	padding-left: 30px;
+	font-size: 40px;
+	background-image: url("../../img/password.png");
+	background-repeat: no-repeat;
+	box-shadow: 3px 3px 3px 2px rgb(180,180,180);
+}
+
+form input.button{
+	box-shadow: 3px 3px 3px 2px rgb(180,180,180);
+}
+
+.statusBar{
+	background-color: rgba(53,106,160,.75);
+	color: rgb(255,255,255);
+	padding: 5px;
+	font-size: 16px;
+}
+
+.statusBar div div a{
+	text-decoration: none;
+	color: rgb(255,255,255);
+}
+
+.bRedondo{
+	border-radius: 10px;
+}
+
+.aRight{
+	text-align: right;
+}
+
+.aCenter{
+	text-align: center;
+}
+
+.aJustify{
+	text-align: justify;
+}
+
+.titleText{
+	font-size: 60px;
+	color: rgb(20,20,20);
+	text-shadow:0px 0px 10px rgb(255,255,255);
+}
+
+.titleText1{
+	font-size: 80px;
+	color: rgb(255,255,255);
+	text-shadow:10px 10px 10px rgb(0,0,0);
+}
+
+.titleText2{
+	font-size: 90px;
+	color: rgb(255,255,255);
+	text-shadow:10px 10px 10px rgb(0,0,0);
+}
+
+.titleText3{
+	font-size: 100px;
+	color: rgb(255,255,255);
+	text-shadow:10px 10px 10px rgb(0,0,0);
+}
+
+@media screen and (max-width: 800px){
+	.contenedor{
+		 margin-top:105px;
+		 margin-bottom:20px
+	}
+
+	body{
+	margin: auto;
+	padding: 0px;
+	background-image: url("../../img/fondo.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100vh;
+
+	}
+
+}

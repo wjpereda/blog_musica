@@ -3,22 +3,100 @@
   <head>
     <meta charset="utf-8">
     <title>BLOG DE MUSICA</title>
-    <meta name="viewport" content="width:device-width,user-scalable=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <script type="text/javascript" src="js/bootstrap.min."></script>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0">
+	  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	  <script type="text/javascript" src="js/bootstrap.js"></script>
+	  <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
   </head>
   <body>
     <div class="container">
       <header style="background:gray">
-        cabecera
+        <div class="row">
+          <div class="col-lg-8">
+            <img src="img/logo.png" class="img-resposive">
+          </div>
+          <div class="col-lg-4">
+            <img src="img/yt.png" class="img-resposive">
+            <img src="img/fb.png" class="img-resposive">
+            <img src="img/inst.png" class="img-resposive">
+            <img src="img/pin.png" class="img-resposive">
+            <img src="img/twit.png" class="img-resposive">
+          </div>
+        </div>
       </header>
       <nav style="background:blue">
-        navegacion
+        <div class="row" style="padding:10px">
+          <div class="col-lg-2 text-center">
+            <a href="#" class="btn btn-primary" style="width:80%">
+              Inicio
+            </a>
+          </div>
+          <div class="col-lg-2 text-center">
+            <a href="#" class="btn btn-primary" style="width:80%">
+              Artistas
+            </a>
+          </div>
+          <div class="col-lg-2 text-center">
+            <a href="#" class="btn btn-primary" style="width:80%">
+              Grupos
+            </a>
+          </div>
+          <div class="col-lg-2 text-center">
+            <a href="#" class="btn btn-primary" style="width:80%">
+              Top 10
+            </a>
+          </div>
+          <div class="col-lg-2 text-center">
+            <a href="#" class="btn btn-primary" style="width:80%">
+              Letras
+            </a>
+          </div>
+          <div class="col-lg-2 text-center">
+            <a href="#" class="btn btn-primary" style="width:80%">
+              Acordes
+            </a>
+          </div>
+        </div>
       </nav>
-      <section style="background:red;float:left" class="col-lg-8">
-        seccion
+      <section style="background:red;float:left" class="col-lg-8 col-xs-12">
+        <article class="row">
+          <div class="col-lg-8">
+            <h2>Tributo a los Beatles</h2>
+            <p class="text-justify">La Orquesta Filarmónica de Medellín celebrará la carrera musical de la agrupación británica The Beatles, quienes marcaron la historia del rock durante la década de los 60s y 70s, durante esta velada la Orquesta estará acompañada por Claudia Gómez (voz y guitarra) y Julián Cardona (guitarra), bajo la dirección de Gonzalo Ospina.</p>
+          </div>
+          <div class="col-lg-4">
+            <img src="img/beatles.jpg" width="100%">
+          </div>
+        </article>
+
+        <article class="row" style="margin-bottom:20px">
+          <div class="col-lg-1">
+            <img src="img/fb.png" class="img-responsive">
+          </div>
+          <div class="col-lg-11">
+            <input class="form-control" type="text" name="" value="">
+          </div>
+        </article>
+
+        <article class="row">
+          <div class="col-lg-4">
+            <img src="img/sistemaSolar.jpg" width="100%">
+          </div>
+          <div class="col-lg-8">
+            <h2>Navegación por los Planetas</h2>
+            <p class="text-justify">El desafío científico de transformar Marte en el nuevo planeta Tierra aún es muy lejano y así seguirá siéndolo mientras la tecnología y la ciencia no desarrollen nuevos instrumentos. ¿Por qué, por ahora, es imposible? Uno de los principales problemas deriva de la escasez de dióxido de carbono.</p>
+          </div>
+        </article>
+        <article class="row" style="margin-bottom:20px">
+          <div class="col-lg-1 col-xs-6">
+            <img src="img/fb.png" class="img-responsive">
+          </div>
+          <div class="col-lg-11 col-xs-6">
+            <input class="form-control" type="text">
+          </div>
+        </article>
       </section>
-      <aside style="background:green;float:left" class="col-lg-4 .hidden-xs">
+      <aside style="background:green;float:left" class="col-lg-4 hidden-xs">
         aside
       </aside>
     </div>

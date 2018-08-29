@@ -1,0 +1,75 @@
+.barMenu{
+	display: none;
+}
+
+header{
+	width: 100%;
+	background: rgba(134,177,76,.7);
+}
+
+header nav{
+	display: table;
+}
+
+header nav ul{
+	list-style: none;
+	padding: 0px;
+}
+
+header nav ul li{
+	float: left;
+	padding: 0px;
+}
+
+header nav ul li a{
+	padding: 5px;
+	display: block;
+	color:rgb(0,0,0);
+	text-align: center;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+header nav ul li a:hover{
+	background-color: rgb(168,211,103);
+	text-decoration: none;
+}
+
+header nav ul li a{
+	 color:rgb(0,0,0);
+	 font-weight:bold;
+	 text-decoration: none;
+}
+
+
+
+div ul{
+	list-style: none;
+	padding: 0px;
+}
+
+div ul li{
+	padding: 0px;
+}
+
+div ul li a{
+	padding: 5px;
+	display: block;
+	color:rgb(0,0,0);
+	text-align: center;
+	font-weight:bold;
+	text-decoration: none;
+}
+
+div ul li a:hover{
+	background-color: rgb(168,211,103);
+	text-decoration: none;
+}
+
+div ul li a{
+	 color:rgb(0,0,0);
+	 font-weight:bold;
+	 text-decoration: none;
+	 text-align: left;
+	 padding-left: 0px;
+}
